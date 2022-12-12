@@ -20,7 +20,7 @@ public class UserInput {
     else if (name.equals("barney")){ //can have multiple else if
       System.out.println("Barney I Love You.");
     }
-    else if(name.trim().equals("")){ //cannot put a space in between the "", even with trim trim will get rid of the user input space but not the " " that you are comparing with. 
+    else if(name.trim().equals("")){ //cannot put a space in between the "", even with trim, trim will get rid of the user input space but not the " " that you are comparing with. 
     // OR name.trim().isEmpty()
     // OR name.trim().length() == 0
     // OR name.trim().equals("")
